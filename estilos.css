@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.contenedor{
+    background: rgb(10, 10, 10);
+    width: 100vw;
+    padding: 2rem;
+    
+}
+.navegacion{
+    width: 50%;
+    display: flex;
+    gap: 1rem;
+    margin-left: 2rem;
+
+}
+.logo{
+    font-size: 1.75rem;
+    float: inline-end;
+    margin-top: -35px;
+    color:white;
+    padding-right: 3rem;
+
+}
+p{
+    font-size: 1.3rem;
+    color: white;
+    
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+    text-align: center;
+ 
+    padding: 0.5rem 2rem;
+}
+p:hover{
+    background: rgb(29, 158, 158);
+}
